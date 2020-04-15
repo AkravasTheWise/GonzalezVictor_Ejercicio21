@@ -49,7 +49,6 @@ for i in range(10):
     l1_plot.set_yticks(())
     l1_plot.set_xlabel(r'$\beta_%i$' % i)
 plt.suptitle('Vectores de coeficientes')
-plt.show()
 plt.savefig('coeficientes.png')
 
 
@@ -67,7 +66,6 @@ for i in range(10):
         ax.text(i, j, str(c), va='center', ha='center')
 plt.axis('off')
 plt.title('Matriz de confusión')
-plt.show()
 plt.savefig('confusion.png')
 
 
